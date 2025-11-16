@@ -10,7 +10,7 @@
 <body class="content"> 
     <div class="container">
         <h1>Login</h1>
-        <form>
+        <form onsubmit="login(event)">
             <label for="userInput">Username or Email</label>
             <input type="text" id="userInput" required />
             <label for="passInput">Password</label>
@@ -20,5 +20,7 @@
             <a href="#" class="block text-right mt-4 text-blue-500 hover:underline">Forgot Password?</a>
         </form>
     </div>
+    <script src="src/users.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
